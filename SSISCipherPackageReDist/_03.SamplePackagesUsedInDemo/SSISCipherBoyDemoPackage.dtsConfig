@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="Comp\Maran" GeneratedFromPackageName="Package" GeneratedFromPackageID="{B2B375E1-9ACB-4C52-BB59-74BD2FA19D7C}" GeneratedDate="1/25/2013 5:32:53 PM" />
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.formyworkouts].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=somecomputername;Initial Catalog=formyworkouts;Provider=SQLNCLI10.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{8C74CF44-383C-4DF8-9E69-57D2D15E4D01}LocalHost.formyworkouts;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::mySensitiveVariable].Properties[Value]" ValueType="String">
+    <ConfiguredValue>My sensitive information stored in the variable named mySensitiveVariable is exposed now.</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

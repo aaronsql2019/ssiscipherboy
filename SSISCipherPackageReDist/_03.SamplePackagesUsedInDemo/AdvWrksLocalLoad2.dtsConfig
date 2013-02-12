@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="comp\maran" GeneratedFromPackageName="AdvWrksLocalLoad2" GeneratedFromPackageID="{555E8475-CC07-4592-B84F-A13DAC3310AF}" GeneratedDate="11/18/2012 6:20:40 PM" />
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[DFTOutputRows].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\Maran\Project stuff\SSISCipherUtil\Demo\SSISDftOutput\DFTOutput1.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP Connection Manager].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>localhost</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[localhost.formyworkouts].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=localhost;User ID=EncrDemoUser;Password=adminpassword-1;Initial Catalog=formyworkouts;Provider=SQLNCLI10.1;Application Name=SSIS-Package-{4FE1C3C6-2DC8-44CA-BD87-954C15C231A5}localhostt.formyworkouts.EncrDemoUser;Auto Translate=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[localhost.Northwind].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=localhost;Initial Catalog=Northwind;Provider=SQLNCLI10.1;Integrated Security=SSPI;Application Name=SSIS-Package-{8BED27C2-EE0D-4FD9-A715-72632301E793}localhost.Northwind;Auto Translate=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Query.txt].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\Maran\Project stuff\SSISCipherUtil\Demo\SSISDownloads\Query.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SMTP Connection Manager].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>SmtpServer=smtp.localhost.com;UseWindowsAuthentication=True;EnableSsl=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SSISDownloads].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\Maran\Project stuff\SSISCipherUtil\Demo\SSISDownloads</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::isFTPEnabled].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>-1</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
